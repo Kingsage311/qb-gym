@@ -13,6 +13,6 @@ jobs:
       uses: johnnyhuy/actions-discord-git-webhook@main
       with:
         webhook_url: ${{ secrets.KINGZ_SEC }}
-        repo_name: NovaKingsRP
+        repo_name: qb-gym
         censor_username: false
         hide_links: true
