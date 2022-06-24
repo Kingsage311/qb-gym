@@ -76,7 +76,7 @@ CreateThread(function()
                             end
                         end
                         ClearAreaOfObjects(pos, 2.0, 0)
-                        exports["qb-skillz"]:UpdateSkill(Config.Locations[k].skill, Config.Locations[k].SkillAddQuantity)
+                        exports["B1-skillz"]:UpdateSkill(Config.Locations[k].skill, Config.Locations[k].SkillAddQuantity)
                         if Config.Debug then
                             print(Config.Locations[k].skill, Config.Locations[k].SkillAddQuantity)
                         end
